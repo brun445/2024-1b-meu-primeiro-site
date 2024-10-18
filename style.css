@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Updock&display=swap');
 
-#{
+*{
     margin:0;
     padding:0;
 }
@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: var(--rosa-pastel);
+    background-color: var(--branco);
     font-family: var(--fonte-texto);
 }
 
@@ -24,6 +24,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--rosa-pastel);
+    background-color: var(--rosa-claro);
+}
+
+.cabecalho-logo{
+    width: 18%;
+    border-radius: 100%;
+    padding: lem;
 }
     
+.cabecalho-link{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 3em;
+    margin-right: lem;
+}
+
+.cabecalho-link:hover{
+    color: var(--branco);
+    font-size: 1.9em;
+    transition: 0.3s;
+}
